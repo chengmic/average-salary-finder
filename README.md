@@ -11,7 +11,7 @@ Use the following parameters: </br>
 
 
 # How to Receive Data:
-The data received is a JSON that contains a dictionary:</br>
+The data received is a JSON:</br>
 {"average_salary": average_salary} </br>
 
 # UML Sequence Diagram
