@@ -3,11 +3,12 @@ This microservice is a simple REST API built with Flask that retrieves informati
 
 # How to Request Data:
 Make a GET request to '/average_salary'.
+A sample request is also included in the repo.
 
 </br>
 Use the following parameters: </br>
 <b>job_title:</b> The title of the job you want to search.  </br>
-<b>location:</b> Where the job is located. For best results, use ZIP code. (NOTE: not all citites are present in Adzuna database but it should work with most major cities.)</br>
+<b>location:</b> Where the job is located. You can use the city name or zipcode. Zipcode will will give the most precise result as some cities can have the same names. (NOTE: not all citites are present in Adzuna database but it should work with most major cities.)</br>
 
 
 # How to Receive Data:
