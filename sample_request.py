@@ -6,6 +6,7 @@ def make_request(param1, param2):
     data = response.json()
 
     print (data['average_salary'])
+    return data['average_salary']
 
 
 job='software developer'
